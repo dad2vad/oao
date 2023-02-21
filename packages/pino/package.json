@@ -1,0 +1,17 @@
+{
+  "name": "@o6/pino",
+  "version": "0.0.1",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./browser": "./browser/index.mjs",
+    "./server": "./server/index.mjs"
+  },
+  "type": "module",
+  
+  "private": true,
+  "dependencies": {
+    
+    "pino-abstract-transport": "latest"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "repository": "https://github.com/vercel/examples.git",
+  "license": "MIT",
+  "private": true,
+
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "release": "bash ./scripts/release.sh",
+    "bump": "oao publish"
+  },
+  "devDependencies": {
+    "oao": "latest",
+    "eslint": "^8.34.0",
+    "eslint-config-turbo": "latest",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@7.15.0",
+  "dependencies": {
+    "rimraf": "^4.1.2"
+  }
+}
